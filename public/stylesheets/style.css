@@ -1,51 +1,71 @@
-/* body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body {
+  /* padding: 50px; */
+  /* font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; */
+  background-color: #032b27;
 }
 
-a {
+/* a {
   color: #00B7FF;
 } */
 
-/* title font */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #032b27;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #032b27;
+}
+
+.buttons {
+  display: flex;
+}
+
+/* audiowide font */
 .audiowidefont{
   font-family: "Audiowide", sans-serif;
   color: #c0483b;
 }
 
-/* body  font */
+/* monaco font */
 .monacofont{
   font-family: "monaco", monospace;
   color: #794a3a;
 }
 
-/* glow score title orange */
-h6.a{
-  font-family: "Audiowide", sans-serif;
+/* glow title orange */
+h3.a{
   color: #f57f5b;
   text-shadow: #f7997c 1px 0 10px;
 }
 
-/* glow score title yellow */
+/* glow font yellow */
 h7.a{
-  font-family: "monaco", monospace;
-  color: #faca78;
+  /* color: #faca78; */
+  color: #c0483b;
   text-shadow: #967948 1px 0 10px;
 }
 
-/* background color light blue */
+/* background color deep green */
 .backGroundColor{
-  background-color: #68c7c1; 
-}
-
-.dark-mode{
   background-color: #032b27;
 }
 
-/* basic button colors */
-.gameButtonStyle{
-  background-color: #F57F5B;
+/*button colors */
+Button{
+  /* background-color: #F57F5B; */
+  background-color: #032b27;
+  font-family: "monaco", monospace;
   color: #FACA78;
+  font-weight: bold;
+  font-size:large;
   border: none;
   border-radius: 6px;
 }
@@ -53,7 +73,9 @@ h7.a{
 /* hover over button colors */
 button:hover {
     color: #F57F5B;
-    background-color: #FACA78;
+    text-decoration: underline;
+    text-decoration-color: #13c8b3;
+    background-color: #032b27;
 }
 
 input[type="submit"].btn:hover {
@@ -66,7 +88,7 @@ input[type="submit"].btn:hover {
   display: none;
 }
 
-/* Rounded border ues around titles*/
+/* Rounded border use around titles*/
 hr.rounded {
   border-top: 8px solid #bbb;
   border-radius: 5px;
